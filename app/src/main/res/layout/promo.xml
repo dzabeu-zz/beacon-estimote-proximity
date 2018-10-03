@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.estimote.notification.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/promo_0"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="111dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/promo_1"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView7"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/promo_2"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView8"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/promo_3"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/promo_5"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+</RelativeLayout>
